@@ -151,14 +151,22 @@ table {
     padding-top: 17px;
     padding-bottom: 17px;
 }
-
+&>.container {
+    display: flex;
+    align-items: center;
+  }
 .header-svg {
     fill: #01996D;
     width: 79.565px;
     height: 23.04px;
+    margin-right: 172px;
 }
 
-.header-list {}
+.header-list { 
+    display: flex;
+    gap: 72px;
+    margin-right: auto;
+}
 
 .item-text {
     color: var(--item-color);
@@ -169,7 +177,11 @@ table {
 
 .header-nav {}
 
-.nav-list {}
+.nav-list { 
+    display: flex;
+    gap: 35px;
+
+}
 
 .nav-text {
     color: var(--black--color);
