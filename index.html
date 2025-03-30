@@ -1,27 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alivio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
 </head>
+
 <body>
     <header class="header">
-        <h1 class="header-title">Alivio</h1>
-        <ul class="header-list">
-            <li class="list-item"></li>
-            <li class="list-item"></li>
-            <li class="list-item"></li>
-            <li class="list-item"></li>
-        </ul>
-        <nav class="header-nav">
-            <ul class="nav-list">
-                <li class="nav-item">Sign in</li>
-                <li class="nav-item"><button type="button">Start Trial</button></li>
+        <div class="container">
+            <svg class="header-svg">
+                <use href="./img/symbol-defs.svg#icon-logo"></use>
+            </svg>
+            <ul class="header-list">
+                <li class="list-item">
+                    <p class="item-text">Why Alivio</p>
+                </li>
+                <li class="list-item">
+                    <p class="item-text">Solutions</p>
+                </li>
+                <li class="list-item">
+                    <p class="item-text">Community</p>
+                </li>
+                <li class="list-item">
+                    <p class="item-text">Pricing</p>
+                </li>
             </ul>
-        </nav>
+            <nav class="header-nav">
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <p class="nav-text">Sign in</p>
+                    </li>
+                    <li class="nav-item"><button type="button" class="nav-button">Start Trial</button></li>
+                </ul>
+            </nav>
+        </div>
     </header>
+    <div class="header-line"></div>
     <main class="main">
 
     </main>
@@ -29,4 +54,5 @@
 
     </footer>
 </body>
+
 </html>
