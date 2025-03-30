@@ -283,7 +283,10 @@ table {
     line-height: 1.57;
 }
 
-.work-box {}
+.work-box {
+    display: flex;
+    gap: 136px;
+}
 
 .work-title {
     color: var(--button-color);
@@ -291,16 +294,18 @@ table {
     font-size: 50px;
     font-weight: 700;
     line-height: 1.57;
+    width: 584px;
 }
 
 .work-text {
     width: 671px;
-    height: 269px;
-    color: #424242;
+    color: var(--work-subtitle);
     font-family: "Lato";
     font-size: 20px;
     font-weight: 500;
     line-height: 1.50;
+    width: 671px;
+    margin-top: 23px;
 }
 
 .work-list{
