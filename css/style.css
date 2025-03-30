@@ -308,12 +308,14 @@ table {
     margin-top: 23px;
 }
 
-.work-list{
-
+.work-list { 
+    display: flex;
+    justify-content: center;
+    gap: 95px;
 }
 
-.wrok-item{
-
+.work-item:nth-child(2) {
+    margin-top: 287px;
 }
 
 .work-subsubtitle {
@@ -322,6 +324,11 @@ table {
     font-size: 30px;
     font-weight: 700;
     line-height: 1.50;
+    margin-bottom: 55px;
+}
+
+.work-subsubtitle:nth-child(3){
+    margin-bottom: 46px;
 }
 
 .work-textt {
@@ -330,5 +337,22 @@ table {
     font-size: 20px;
     font-weight: 500;
     line-height: 1.50;
+    width: 382px;
+    margin-bottom: 60px;
 }
 
+.work-textt:nth-child(2){
+    margin-bottom: 37px;
+}
+
+.work-textt:nth-child(3){
+    margin-bottom: 48px;
+}
+
+.work-textt:nth-child(2) {
+    width: 392px;
+}
+
+.work-textt:nth-child(3) {
+    width: 441px;
+}
