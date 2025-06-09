@@ -505,3 +505,33 @@ table {
     left: -60.68px;
     top: 354.1px;
 }
+
+/* Footer */
+.footer {
+    background: var(--hear-background);
+    padding-top: 95px;
+    padding-bottom: 144px;
+}
+
+.footer-title {
+    color: var(--white-color);
+    font-family: "Averia Serif Libre";
+    font-size: 40px;
+    font-weight: 900;
+    margin-bottom: 60px;
+}
+
+.footer-list {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.footer-item {}
+
+.footer-text {
+    color: var(--white-color);
+    font-family: "Lato";
+    font-size: 25px;
+    font-weight: 600;
+}
